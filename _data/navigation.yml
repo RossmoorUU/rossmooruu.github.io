@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Past Programs
+  link: /past_programs.html
+- name: About
+  link: /about.html
