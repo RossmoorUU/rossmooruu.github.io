@@ -1,0 +1,23 @@
+title: Rossmoor UU
+description: >- 
+  Official website for Rossmoor UU. Built with Jekyll and hosted on GitHub Pages.
+baseurl: "" # Leave empty for root directory
+url: "https://rossmooruu.org" # Your website URL
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files and directories from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# GitHub Pages settings
+github:
+  is_project_page: false
