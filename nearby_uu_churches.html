@@ -1,0 +1,44 @@
+---
+layout: default
+title: "UU Churches near Rossmoor"
+---
+<p></p>
+<section>
+    <div class="container text-center">
+        <h1>Unitarian Universalist Churches near Rossmoor</h1>
+        <p class="lead text-muted"></p>
+        <p></p>
+    </div>
+    <div class="container">
+        <p class="lead text-muted">The following Unitarian Universalist churches are within 50 miles of Rossmoor, CA. The distance is calculated from the center of Rossmoor.</p>
+        <div class="row">
+            <div class="col-4">
+              Name
+            </div>
+            <div class="col-6">
+              Address
+            </div>
+            <div class="col-2">
+              Distance
+            </div>
+        </div>
+        {% for church in site.data.uu_churches %}
+        <div class="row">
+            <div class="col-4">
+              {{ church.Name }}<br>
+              <a href="{{ church.Website }}" target="_blank"> {{ church.Website }}</a>
+            </div>
+            <div class="col-6">
+              <br>
+              {{ church.Street }} {{ church.City }}, {{ church.State }} {{ church.Zip }}
+            </div>
+            <div class="col-2">
+              <br>
+             {{ church.distance | to_integer }}
+            </div>
+            <p></p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+

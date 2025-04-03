@@ -1,5 +1,8 @@
 
 ### Jekyll ###
+
+# Ignore Jekyll build files
+_site/
 .sass-cache/
 .liquidrc
 # Ignore Jekyll cache files
