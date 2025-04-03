@@ -4,7 +4,7 @@ layout: default
 ---
 <section>
     <div class="container text-center">
-        <h1>Welcome to the web home of Rossmoor Unitarian Universalists</h1>
+        <h1>Rossmoor Unitarian Universalists</h1>
         <p class="lead text-muted">The place to find information about upcoming programs, speakers, and other resources
         for the Rossmoor Community.</p>
         <p></p>
