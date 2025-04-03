@@ -7,9 +7,9 @@ url: "https://rossmooruu.org" # Your website URL
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+# plugins:
+#  - jekyll-feed
+#  - jekyll-sitemap
 
 # Exclude files and directories from processing
 exclude:
