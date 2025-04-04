@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if page.title %}
-        <title>Rossmoor Unitarian Universalists - {{ page.title }}</title>
+    <title>Rossmoor Unitarian Universalists - {{ page.title }}</title>
     {% else %}
-        <title>Rossmoor Unitarian Universalists</title>
+    <title>Rossmoor Unitarian Universalists</title>
     {% endif %}
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC"
+      crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-{% include header.html %}
-   <main role="main" class="container">
+  </head>
+  <body>
+    {% include header.html %}
+    <main role="main" class="container">
       <div class="row">
         <div class="col-md-12">
           {{ content }}
@@ -22,10 +26,12 @@
     </main>
     <footer class="footer mt-auto py-3 bg-light">
       <div class="container">
-          <p class="small">&copy; 2025. All rights reserved.</p>
+        <p class="small">&copy; 2025. All rights reserved.</p>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
-

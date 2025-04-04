@@ -12,10 +12,10 @@ title: "UU Churches near Rossmoor"
     <div class="container">
         <p class="lead text-muted">The following Unitarian Universalist churches are within 50 miles of Rossmoor.</p>
         <div class="row">
-            <div class="col-4">
+            <div class="col-3">
               Name
             </div>
-            <div class="col-6">
+            <div class="col-4">
               Address
             </div>
             <div class="col-2">
@@ -24,18 +24,19 @@ title: "UU Churches near Rossmoor"
         </div>
         {% for church in site.data.uu_churches %}
         <div class="row">
-            <div class="col-4 .text-truncate">
+            <div class="col-3 .text-truncate">
               {{ church.Name }}<br>
-              <a href="{{ church.Website }}" target="_blank"> {{ church.Website }}</a>
+              <a class="church-url" href="{{ church.Website }}" target="_blank"> {{ church.Website }}</a>
             </div>
-            <div class="col-6">
+            <div class="col-4">
+              {{ church.Street }} 
               <br>
-              {{ church.Street }} {{ church.City }}, {{ church.State }} {{ church.Zip }}
+              {{ church.City }}, {{ church.State }} {{ church.Zip }}
             </div>
             <div class="col-2">
-              <br>
              {{ church.distance | to_integer }}
             </div>
+            <hr>
             <p></p>
         </div>
         {% endfor %}
