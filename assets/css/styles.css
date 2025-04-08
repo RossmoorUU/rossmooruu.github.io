@@ -91,3 +91,8 @@ a.article-title:hover {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .home-head {
+    display: none;
+  }
+}

@@ -10,7 +10,7 @@ layout: default
         <p></p>
     </div>
     <div class="container">
-        {% for program in site.data.next_program %}
+        {% for program in site.data.next_program_draft %}
         <div class="row">
             <h2>{{ program.date }}</h2>
             <p>Doors open at 11:15 with the program to begin at 11:30.</p>
