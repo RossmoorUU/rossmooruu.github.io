@@ -7,7 +7,7 @@ title: About
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <img src="assets/images/hillside-complex.jpg" class="img-fluid">
+                <img src="assets/images/vista_room.png" class="img-fluid">
                 <p>Our group meets in the Vista Room of the Hillside complex, located at 3400 Golden Rain Road in Rossmoor.</p>
             </div>
             <div class="col-8">
