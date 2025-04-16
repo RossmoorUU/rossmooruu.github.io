@@ -1,8 +1,18 @@
 - name: Home
   link: /
 - name: Past Programs
-  link: /past_programs.html
+  link: \#
+  dropdown:
+    - name: This Year
+      link: /past_programs
+    - name: Prior Years
+      link: /older_programs
 - name: Nearby Churches
-  link: /nearby_uu_churches.html
+  link: /nearby_uu_churches
 - name: About
-  link: /about.html
+  link: \#
+  dropdown:
+    - name: Unitarian Universalism
+      link: /about_unitarian_universalism
+    - name: Rossmoor UU
+      link: /about_rossmoor_uu

@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <picture>
+          <source srcset="assets/images/rossmoor-uu-logo.webp"
+            type="image/webp">
+          <source srcset="assets/images/rossmoor-uu-logo.png"
+            type="image/png">
+          <img src="assets/images/rossmoor-uu-logo.png"
+            alt="Rossmoor UU Logo" class="site-logo">
+        </picture>
+      </a>
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarToggle"
+        aria-controls="navbarToggle" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          {% for item in site.data.navigation %}
+            {% if item.dropdown %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{ item.link }}" id="navbarDropdown{{ forloop.index }}"
+                   role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ item.name }}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
+                  {% for subitem in item.dropdown %}
+                    <li><a class="dropdown-item" href="{{ subitem.link }}">{{ subitem.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
