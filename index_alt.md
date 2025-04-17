@@ -28,5 +28,21 @@ layout: default
         </div>
         <hr>
         {% endfor %}
+        <div class="row">
+            <div class="col-4">
+                <h3>Location</h3>
+                <img src="https://placehold.co/300x300.png" class="img-fluid">
+            </div>
+            <div class="col-4">
+                <h3>Contact</h3>
+                <img src="https://placehold.co/300x300.png" class="img-fluid">
+            </div>
+            <div class="col-4">
+                <h3>More Information</h3>
+                <img src="https://placehold.co/300x300.png" class="img-fluid">
+            </div>
+        </div>
+        <hr>
+       
     </div>
 </section>
