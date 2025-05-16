@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Rossmoor UU
 layout: default
 ---
 <section>
@@ -10,7 +10,7 @@ layout: default
         <p></p>
     </div>
     <div class="container">
-        {% for program in site.data.next_program_draft %}
+        {% for program in site.data.next_program %}
         <div class="row">
             <h2>{{ program.date }}</h2>
             <p>Doors open at 11:15 with the program to begin at 11:30.</p>
@@ -28,21 +28,5 @@ layout: default
         </div>
         <hr>
         {% endfor %}
-        <div class="row">
-            <div class="col-4">
-                <h3>Location</h3>
-                <img src="https://placehold.co/300x300.png" class="img-fluid">
-            </div>
-            <div class="col-4">
-                <h3>Contact</h3>
-                <img src="https://placehold.co/300x300.png" class="img-fluid">
-            </div>
-            <div class="col-4">
-                <h3>More Information</h3>
-                <img src="https://placehold.co/300x300.png" class="img-fluid">
-            </div>
-        </div>
-        <hr>
-       
     </div>
 </section>

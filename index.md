@@ -1,5 +1,5 @@
 ---
-title: Rossmoor UU
+title: Home
 layout: default
 ---
 <section>
@@ -28,5 +28,50 @@ layout: default
         </div>
         <hr>
         {% endfor %}
+        <div class="row">
+            <h2>Upcoming Events</h2>
+            <div class="col-1"></div>
+            <div class="col-4">
+                {% for event in site.data.event_1 %}
+                <h3>{{ event.title }}</h3>
+                <h4>{{ event.date }}</h4>
+                <p>{{ event.description }}</p>
+                {% if event.link > "" %}
+                    <p><a href="{{ event.link }}" target="_blank">For more information</a></p>
+                {% endif %}
+                {% if event.image > "" %}
+                    <img src="assets/images/{{ event.image }}" class="img-fluid">
+                {% endif %}
+                {% endfor %}
+            </div>
+            <div class="col-4">
+                {% for event in site.data.event_2 %}
+                <h3>{{ event.title }}</h3>
+                <h4>{{ event.date }}</h4>
+                <p>{{ event.description }}</p>
+                {% if event.link > "" %}
+                    <p><a href="{{ event.link }}" target="_blank">For more information</a></p>
+                {% endif %}
+                {% if event.image > "" %}
+                    <img src="assets/images/{{ event.image }}" class="img-fluid">
+                {% endif %}
+                {% endfor %}
+            </div>
+            <div class="col-4">
+                {% for event in site.data.event_3 %}
+                <h3>{{ event.title }}</h3>
+                <h4>{{ event.date }}</h4>
+                <p>{{ event.description }}</p>
+                {% if event.link > "" %}
+                    <p><a href="{{ event.link }}" target="_blank">For more information</a></p>
+                {% endif %}
+                {% if event.image > "" %}
+                    <img src="assets/images/{{ event.image }}" class="img-fluid">
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <hr>
+       
     </div>
 </section>
