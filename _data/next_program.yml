@@ -1,8 +1,31 @@
 - title: "Save the Date: Brown Bag Lunch & Pride Month Celebration"
-  date: June 14, 2025
-  description: Mark your calendars for Friday, June 14th, 2025! Our next Brown Bag Lunch 
-    will be a special celebration of Pride Month at Rossmoor. We're excited to share more 
-    details soon, so stay tuned and check back regularly for updates on this joyous event! 
-  speaker: 
-  biography: 
+  date: June 13, 2025
+  description: Join us at our upcoming brown-bag lunch program, "Demystifying the 'T' in LGBTQ+", as we 
+    celebrate Pride Month! This special event will take place on Friday, June 13th at 11:30 am in the 
+    Vista Room at the Hillside Clubhouse Complex. A panel of individuals with diverse perspectives 
+    will share their personal stories and experiences, shedding light on issues surrounding gender 
+    identities and gender expressions.<br><br>
+    We are excited to have this opportunity to learn from and support each other, as we strive to 
+    create a more inclusive and compassionate community. This program is open to all Rossmoor residents 
+    and their guests, and we hope you can join us for an informative and engaging discussion. 
   image: pride_flag.png
+  speaker: 
+    - name: "Jef Melcher"
+      biography: Jef Melcher has extensive experience in religious education, having
+        directed programs for children and young adults at several Unitarian
+        Universalist congregations. As a member of the LGBTQ+ community, Jef
+        identifies as "Q" (questioning) and prefers to be referred to without
+        labeling himself with a specific gender identity or expression.
+      image: jef-melcher.jpg
+    - name: "Susan Garrigues"
+      biography: Susan Garrigues had a long-term committed relationship with her partner,
+        spanning 55 years, the first 13 years with Janet and the subsequesnt 42 years with her
+        late husband John. She also raised two sons with John and worked in social
+        services for Amador and Contra Costa Counties before moving to Rossmoor.
+      image: susan-garrigues.jpg
+    - name: "Alex Harris Baccaro"
+      biography: Alex Harris Baccaro serves as President of the Board of Rossmoor's LGBTQ+
+        Alliance. At 65, Alex began his transition from female to male and has
+        since pursued professional music performances and worked at UC Berkeley to
+        attract low-income students, highlighting his dedication to his passions.
+      image: alex-harris-baccaro.jpg

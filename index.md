@@ -16,21 +16,28 @@ layout: default
             <p>Doors open at 11:15 with the program to begin at 11:30.</p>
         </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-3">
                 <img src="assets/images/{{ program.image }}" class="img-fluid">
             </div>
-            <div class="col-8">
+            <div class="col-9">
                 <h2>{{ program.title }}</h2>
                 <p>{{ program.description  }}</p>
-                <h3>{{ program.speaker }}</h3>
-                <p>{{ program.biography }}</p>
             </div>
+        </div>
+        <div class="row">
+            <h2>Speakers</h2>
+            {% for speaker in program.speaker %}
+            <div class="col-4">
+                <h4>{{ speaker.name }}</h4>
+                <p><img src="assets/images/{{speaker.image}}" class="float-start w-50 p-2" alt="{{ speaker.name }}">
+                {{ speaker.biography }}</p>
+            </div>
+            {% endfor %}
         </div>
         <hr>
         {% endfor %}
         <div class="row">
             <h2>Upcoming Events</h2>
-            <div class="col-1"></div>
             <div class="col-4">
                 {% for event in site.data.event_1 %}
                 <h3>{{ event.title }}</h3>
@@ -72,6 +79,5 @@ layout: default
             </div>
         </div>
         <hr>
-       
     </div>
 </section>
