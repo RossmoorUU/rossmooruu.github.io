@@ -28,8 +28,8 @@ layout: default
             <h2>Speakers</h2>
             {% for speaker in program.speaker %}
             <div class="col-4">
-                <h4>{{ speaker.name }}</h4>
-                <p><img src="assets/images/{{speaker.image}}" class="float-start w-50 p-2" alt="{{ speaker.name }}">
+                <h4 style="text-align: center;">{{ speaker.name }}</h4>
+                <p><img src="assets/images/{{speaker.image}}" class="float-start w-50 p-2" alt="Photo of {{ speaker.name }}">
                 {{ speaker.biography }}</p>
             </div>
             {% endfor %}
@@ -40,8 +40,8 @@ layout: default
             <h2>Upcoming Events</h2>
             <div class="col-4">
                 {% for event in site.data.event_1 %}
-                <h3>{{ event.title }}</h3>
-                <h4>{{ event.date }}</h4>
+                <h3 style="text-align: center;">{{ event.title }}</h3>
+                <h4 style="text-align: center;">{{ event.date }}</h4>
                 <p>{{ event.description }}</p>
                 {% if event.link > "" %}
                     <p><a href="{{ event.link }}" target="_blank">For more information</a></p>
@@ -53,8 +53,8 @@ layout: default
             </div>
             <div class="col-4">
                 {% for event in site.data.event_2 %}
-                <h3>{{ event.title }}</h3>
-                <h4>{{ event.date }}</h4>
+                <h3 style="text-align: center;">{{ event.title }}</h3>
+                <h4 style="text-align: center;">{{ event.date }}</h4>
                 <p>{{ event.description }}</p>
                 {% if event.link > "" %}
                     <p><a href="{{ event.link }}" target="_blank">For more information</a></p>
@@ -66,8 +66,8 @@ layout: default
             </div>
             <div class="col-4">
                 {% for event in site.data.event_3 %}
-                <h3>{{ event.title }}</h3>
-                <h4>{{ event.date }}</h4>
+                <h3 style="text-align: center;">{{ event.title }}</h3>
+                <h4 style="text-align: center;">{{ event.date }}</h4>
                 <p>{{ event.description }}</p>
                 {% if event.link > "" %}
                     <p><a href="{{ event.link }}" target="_blank">For more information</a></p>
