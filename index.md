@@ -27,7 +27,7 @@ layout: default
         <div class="row">
             <h2>Speakers</h2>
             {% for speaker in program.speaker %}
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <h4 style="text-align: center;">{{ speaker.name }}</h4>
                 <p><img src="assets/images/{{speaker.image}}" class="float-start w-50 p-2" alt="Photo of {{ speaker.name }}">
                 {{ speaker.biography }}</p>
@@ -38,8 +38,8 @@ layout: default
         {% endfor %}
         <div class="row">
             <h2>Upcoming Events</h2>
-            <div class="col-4">
-                {% for event in site.data.event_1 %}
+            {% for event in site.data.events %}
+            <div class="col-12 col-md-4">
                 <h3 style="text-align: center;">{{ event.title }}</h3>
                 <h4 style="text-align: center;">{{ event.date }}</h4>
                 <p>{{ event.description }}</p>
@@ -49,34 +49,8 @@ layout: default
                 {% if event.image > "" %}
                     <img src="assets/images/{{ event.image }}" class="img-fluid">
                 {% endif %}
-                {% endfor %}
             </div>
-            <div class="col-4">
-                {% for event in site.data.event_2 %}
-                <h3 style="text-align: center;">{{ event.title }}</h3>
-                <h4 style="text-align: center;">{{ event.date }}</h4>
-                <p>{{ event.description }}</p>
-                {% if event.link > "" %}
-                    <p><a href="{{ event.link }}" target="_blank">For more information</a></p>
-                {% endif %}
-                {% if event.image > "" %}
-                    <img src="assets/images/{{ event.image }}" class="img-fluid">
-                {% endif %}
-                {% endfor %}
-            </div>
-            <div class="col-4">
-                {% for event in site.data.event_3 %}
-                <h3 style="text-align: center;">{{ event.title }}</h3>
-                <h4 style="text-align: center;">{{ event.date }}</h4>
-                <p>{{ event.description }}</p>
-                {% if event.link > "" %}
-                    <p><a href="{{ event.link }}" target="_blank">For more information</a></p>
-                {% endif %}
-                {% if event.image > "" %}
-                    <img src="assets/images/{{ event.image }}" class="img-fluid">
-                {% endif %}
-                {% endfor %}
-            </div>
+            {% endfor %}
         </div>
         <hr>
     </div>
