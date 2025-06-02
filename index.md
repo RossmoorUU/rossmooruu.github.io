@@ -38,6 +38,8 @@ layout: default
         {% endfor %}
         <div class="row">
             <h2>Upcoming Events</h2>
+            <p>Here are some events that may be of interest. They are not necesarily affiliated with 
+            Rossmoor UU.</p><hr>
             {% for event in site.data.events %}
             <div class="col-12 col-md-4">
                 <h3 style="text-align: center;">{{ event.title }}</h3>
