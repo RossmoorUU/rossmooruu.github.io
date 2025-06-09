@@ -51,6 +51,7 @@ layout: default
                 {% if event.image > "" %}
                     <img src="assets/images/{{ event.image }}" class="img-fluid">
                 {% endif %}
+                <hr>
             </div>
             {% endfor %}
         </div>
