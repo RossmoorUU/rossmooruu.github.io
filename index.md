@@ -24,7 +24,7 @@ layout: default
                 <p>{{ program.description  }}</p>
             </div>
         </div>
-        <div class="row">
+<!--         <div class="row">
             <h2>Speakers</h2>
             {% for speaker in program.speaker %}
             <div class="col-12 col-md-4">
@@ -33,7 +33,7 @@ layout: default
                 {{ speaker.biography }}</p>
             </div>
             {% endfor %}
-        </div>
+        </div> -->
         <hr>
         {% endfor %}
         <div class="row">

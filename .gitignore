@@ -14,3 +14,4 @@ _site/
 vendor/
 # MacOS Finder files
 .DS_Store
+_data/next_program copy.yml
