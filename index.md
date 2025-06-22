@@ -3,23 +3,12 @@ title: Home
 layout: default
 ---
 <section>
-    <div class="bg-yellow">
-        <div class="container text-center home-head bg-yellow">
-            <h1>UUA Condemns U.S. Military Action Against Iran</h1>
-        </div>
-        <div>
-            <p>June 21, 2025</p>
-            <p>The Unitarian Universalist Association (UUA) condemns U.S. military involvement in the expanding conflict between Israel and Iran. The involvement of the United States will only escalate a deepening crisis of war in the region, lead to an even greater loss of life, and prevent diplomatic resolution to the region's geopolitical challenges.</p>
-            <p><a href="https://www.uua.org/pressroom/press-releases/uua-condemns-action-against-iran">Read the full statement</a></p>
-        </div>
-    </div>
-<!--     <div class="container text-center home-head">
+    <div class="container text-center home-head">
         <h1>Rossmoor Unitarian Universalists</h1>
-        <p class="lead text-muted">The place to find information about upcoming programs, speakers, and other resources
-        for the Rossmoor Community.</p>
+        <p class="lead text-muted">The group meets in the Vista Room of the Hillside complex on the second Friday of each month for a brown-bag lunch program.</p>
         <p></p>
     </div>
- -->    <div class="container">
+    <div class="container">
         {% for program in site.data.next_program %}
         <div class="row">
             <h2>{{ program.date }}</h2>
@@ -36,9 +25,19 @@ layout: default
                 <p>{{ program.biography }}</p>
             </div>
         </div>
-        <hr>
         {% endfor %}
     </div>
+    <div class="bg-yellow">
+        <div class="container text-center home-head bg-yellow">
+            <h1>UUA Condemns U.S. Military Action Against Iran</h1>
+        </div>
+        <div>
+            <p>June 21, 2025</p>
+            <p>The Unitarian Universalist Association (UUA) condemns U.S. military involvement in the expanding conflict between Israel and Iran. The involvement of the United States will only escalate a deepening crisis of war in the region, lead to an even greater loss of life, and prevent diplomatic resolution to the region's geopolitical challenges.</p>
+            <p><a href="https://www.uua.org/pressroom/press-releases/uua-condemns-action-against-iran">Read the full statement</a></p>
+        </div>
+    </div>
+    <hr>
     <div class="row">
         <h2>Upcoming Events</h2>
         <p>Here are some events that may be of interest. They are not necesarily affiliated with 
