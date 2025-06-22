@@ -15,6 +15,10 @@ ul {
   background-color: #5f788a;
 }
 
+.bg-yellow {
+  background-color: #febe10;
+}
+
 .site-header {
   min-height: 170px;
 }
