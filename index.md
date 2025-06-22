@@ -5,7 +5,7 @@ layout: default
 <section>
     <div class="container text-center home-head">
         <h1>Rossmoor Unitarian Universalists</h1>
-        <p class="lead text-muted">The group meets in the Vista Room of the Hillside complex on the second Friday of each month for a brown-bag lunch program.</p>
+        <p class="lead text-muted">We meet in the Vista Room of the Hillside complex on the second Friday of each month for a brown-bag lunch program.</p>
         <p></p>
     </div>
     <div class="container">
