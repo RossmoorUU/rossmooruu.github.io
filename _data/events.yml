@@ -1,28 +1,33 @@
-
-- title: Racial Wealth Gap Learning Simulation
-  date: Monday, June 23, 2025
-  description: The simulation is an interactive tool that helps people understand the connections among racial 
-    equity, hunger, poverty, and wealth. <br>
-    <br>
-    Those interested in the June 23 simulation should send an email to Charlotte Ashmun at professorashmun@yahoo.com 
-    (space is limited). 
-  link: https://rossmoornews-ca.newsmemory.com?selDate=20250611&goTo=B04&artid=1&editionStart=Rossmoor%20News
-  image: wealth_gap.webp
+# events.yml
+- title: End of Life Issues at Rotary Luncheon
+  date: Wednesday, June 25, 2025
+  description: Jim Greenberg, co-facilitator of the Rossmoor Death Cafe, will
+    speak to Rossmoor Rotary on June 25 about end-of-life issues. A former
+    pediatric anesthesiologist at the University of Pittsburgh, Greenberg
+    experienced life-changing circumstances when his wife was diagnosed with
+    rare multiple sclerosis in the late 1990s. He now advocates for autonomy and
+    natural burial practices at the end of life.
+  link: 
+  image: null
 - title: Rossmoor Pride Gala
   date: Saturday, June 28, 2025
-  description: The Rossmoor Pride 2025 Gala, takes place on Saturday, June 28 at the Event Center, 
-    featuring a cocktail hour, buffet dinner, and DJ dancing. Tickets are available now for
-    Alliance members ($65) or non-members ($75) through their website.  
-  link: https://www.Rossmoorlgbta.org/
+  description: The Rossmoor Pride 2025 Gala, takes place on Saturday, June 28 at
+    the Event Center, featuring a cocktail hour, buffet dinner, and DJ dancing.
+    Tickets are available now for Alliance members ($65) or non-members ($75)
+    through their website.
+  link: 
   image: Rossmoor_LGBTQ+_Alliance_Banner.jpg
 - title: 16th Annual Juneteenth BBQ
   date: Saturday, June 28, 2025
-  description: The 16th Annual Juneteenth BBQ will be held on Saturday, June 28, from noon to 3:00 p.m. 
-    in Sportsman Park at the Hillside Complex. This event is a celebration of African American culture and 
-    history. Tickets can be purchased on Tuesday, June 10th and Thursday, June 12th between 5:00 – 7:00 p.m. 
-    in the Redwood Room at Gateway, OR by placing a check made out to Shirley Rodriques in the African Americans 
-    and Friends Club box at Gateway in the administration building with your name and phone number on the 
-    envelope by Friday, June 20th (tickets purchased via the club box will be picked up when you arrive 
-    at the picnic). Sponsored by the African Americans and Friends Club.
+  description: The 16th Annual Juneteenth BBQ will be held on Saturday, June 28,
+    from noon to 3:00 p.m. in Sportsman Park at the Hillside Complex. This event
+    is a celebration of African American culture and history. Tickets can be
+    purchased on Tuesday, June 10th and Thursday, June 12th between 5:00 and
+    7:00 p.m. in the Redwood Room at Gateway, OR by placing a check made out to
+    Shirley Rodriques in the African Americans and Friends Club box at Gateway
+    in the administration building with your name and phone number on the
+    envelope by Friday, June 20th (tickets purchased via the club box will be
+    picked up when you arrive at the picnic). Sponsored by the African Americans
+    and Friends Club.
   link: 
   image: juneteenth.png

@@ -1,6 +1,5 @@
 title: Rossmoor UU
-description: >- 
-  Official website for Rossmoor UU. Built with Jekyll and hosted on GitHub Pages.
+description: Official website for Rossmoor UU. Built with Jekyll and hosted on GitHub Pages.
 baseurl: "" # Leave empty for root directory
 url: "https://rossmooruu.org" # Your website URL
 

@@ -27,16 +27,6 @@ layout: default
         </div>
         {% endfor %}
     </div>
-    <div class="bg-yellow">
-        <div class="container text-center home-head bg-yellow">
-            <h1>UUA Condemns U.S. Military Action Against Iran</h1>
-        </div>
-        <div>
-            <p>June 21, 2025</p>
-            <p>The Unitarian Universalist Association (UUA) condemns U.S. military involvement in the expanding conflict between Israel and Iran. The involvement of the United States will only escalate a deepening crisis of war in the region, lead to an even greater loss of life, and prevent diplomatic resolution to the region's geopolitical challenges.</p>
-            <p><a href="https://www.uua.org/pressroom/press-releases/uua-condemns-action-against-iran">Read the full statement</a></p>
-        </div>
-    </div>
     <hr>
     <div class="row">
         <h2>Upcoming Events</h2>
