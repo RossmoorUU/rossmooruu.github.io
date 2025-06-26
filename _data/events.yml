@@ -1,14 +1,4 @@
 # events.yml
-- title: End of Life Issues at Rotary Luncheon
-  date: Wednesday, June 25, 2025
-  description: Jim Greenberg, co-facilitator of the Rossmoor Death Cafe, will
-    speak to Rossmoor Rotary on June 25 about end-of-life issues. A former
-    pediatric anesthesiologist at the University of Pittsburgh, Greenberg
-    experienced life-changing circumstances when his wife was diagnosed with
-    rare multiple sclerosis in the late 1990s. He now advocates for autonomy and
-    natural burial practices at the end of life.
-  link: 
-  image: null
 - title: Rossmoor Pride Gala
   date: Saturday, June 28, 2025
   description: The Rossmoor Pride 2025 Gala, takes place on Saturday, June 28 at
@@ -31,3 +21,11 @@
     and Friends Club.
   link: 
   image: juneteenth.png
+- title: Independance Day Celebration
+  date: Friday, July 4, 2025
+  description: The annual event will feature entertainment starting at 10:30 a.m. on the Rotary Stage, 
+    including performances by local bands and musicians, comedy, traditional Hawaiian dance, and vocalists.<br>
+    <br>The Rotary Club of Rossmoor is hosting a lunch event from 11am-1pm at the Dollar parking lot, featuring 
+    a meal deal for $10 with hot dog or sausage options, plus food trucks offering Mexican food and ice cream.
+  link: https://rossmoornews-ca.newsmemory.com/?selDate=20250625&goTo=B01&artid=0&editionStart=Rossmoor%20News
+  image: july4th.webp
