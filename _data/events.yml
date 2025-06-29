@@ -1,26 +1,24 @@
 # events.yml
-- title: Rossmoor Pride Gala
-  date: Saturday, June 28, 2025
-  description: The Rossmoor Pride 2025 Gala, takes place on Saturday, June 28 at
-    the Event Center, featuring a cocktail hour, buffet dinner, and DJ dancing.
-    Tickets are available now for Alliance members ($65) or non-members ($75)
-    through their website.
-  link: 
-  image: Rossmoor_LGBTQ+_Alliance_Banner.jpg
-- title: 16th Annual Juneteenth BBQ
-  date: Saturday, June 28, 2025
-  description: The 16th Annual Juneteenth BBQ will be held on Saturday, June 28,
-    from noon to 3:00 p.m. in Sportsman Park at the Hillside Complex. This event
-    is a celebration of African American culture and history. Tickets can be
-    purchased on Tuesday, June 10th and Thursday, June 12th between 5:00 and
-    7:00 p.m. in the Redwood Room at Gateway, OR by placing a check made out to
-    Shirley Rodriques in the African Americans and Friends Club box at Gateway
-    in the administration building with your name and phone number on the
-    envelope by Friday, June 20th (tickets purchased via the club box will be
-    picked up when you arrive at the picnic). Sponsored by the African Americans
-    and Friends Club.
-  link: 
-  image: juneteenth.png
+- title: Sustainable Rossmoor Meeting
+  date: Tuesday, July 1, 2025
+  description: The next Sustainable Rossmoor (SRMTG) meeting will take place on Tuesday, July 1 at 7 p.m. in the 
+    Fairway Room at Creekside. This hybrid meeting will also be available online through Zoom. Socializing and 
+    food/drinks will start at 6:30 p.m.<br>
+    The speaker for this meeting is author Jeff Miller, a professional conservationist who has worked extensively 
+    on wildlife protection issues in the Bay Area. Miller is a senior advocate with the Center for Biological 
+    Diversity and has been involved in efforts to protect iconic species such as steelhead trout and salmon. 
+    He will be discussing his new book "Bay Area Wildlife - An Irreverent Guide," illustrated by Obi Kauffman, 
+    and three copies will be given away as door prizes at the meeting.
+  link: https://rossmoornews-ca.newsmemory.com?selDate=20250625&goTo=A02&artid=0&editionStart=Rossmoor%20News
+  image: sustain.jpeg
+- title: Breath and Spirit Retreat at MDUUC
+  date: Saturday, October 11, 2025
+  description: Breath and Spirit half-day spiritual retreat will focus on cultivating the resources of inner peace. 
+    Understanding how we can bring resources to our own hearts is a vital way we can stay tenacious, persistent and engaged. 
+    Through meditation, reflection, song, chant and art, we will remind ourselves of the rich troves of inner strength 
+    we have within our own hearts and which can be a lifeline in these times of uncertainty and change.
+  link: https://mduuc.churchcenter.com/calendar/event/191466714
+  image: breath-spirit.png
 - title: Independance Day Celebration
   date: Friday, July 4, 2025
   description: The annual event will feature entertainment starting at 10:30 a.m. on the Rotary Stage, 
