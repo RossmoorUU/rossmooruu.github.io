@@ -1,0 +1,48 @@
+# books.yml
+# This file contains a list of books with their details.
+# Each book has a category, title, author, description, ISBN, and cover image.
+# The categories include FICTION and NON FICTION.
+- category: FICTION
+  title: The Measure
+  author: Nikki Erlick
+  description: Everyone can find out how long he/she will live—would you want to know?
+  isbn: 63204207
+  cover_image: the-measure.jpg
+- category: FICTION
+  title: Wobegon Boy
+  author: Garrison Keillor
+  description: A humorous glimpse into the life and times of The Prairie Home
+    Companion’s Scandinavian Minnisota.
+  isbn: 571194893
+  cover_image: wobegon-boy.jpg
+- category: FICTION
+  title: The Rent Collector
+  author: Cameron Wright
+  description: Poor Cambodian people in the aftermath of the Vietnam War struggle
+    to survive.
+  isbn: 9781609071226
+  cover_image: rent-collector.jpg
+- category: NON FICTION
+  title: The Emperor of All Maladies
+  author: Siddhartha Mukhwejee
+  description: Explains the complexities that doctors and patients experience as
+    they have faced cancer through the centuries.
+  isbn: 9780007435814
+  cover_image: emperor.jpg
+- category: NON FICTION
+  title: The Book of Hope, A Survival Guide for Trying Times
+  author: Jane Goodall
+  description: Explores our current relationship with nature and climate, as well
+    as the optimistic actions we can realistically take to make the situation
+    better.
+  isbn: 9781432894283
+  cover_image: hope.jpg
+- category: NON FICTION
+  title: American Nation, A History of the Eleven Rival Regional Cultures of North
+    America
+  author: Colin Woodard
+  description: Describes the history and current implications of what the regions
+    of the United States are about and how they impact our elections and lives
+    in general.
+  isbn: 9780670022960
+  cover_image: american-nations.jpg

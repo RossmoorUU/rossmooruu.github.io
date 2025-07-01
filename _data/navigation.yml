@@ -7,8 +7,13 @@
       link: /past_programs
     - name: Prior Years
       link: /older_programs
-- name: Nearby Churches
-  link: /nearby_uu_churches
+- name: Resources
+  link: \#
+  dropdown:
+    - name: Nearby Churches
+      link: /nearby_uu_churches
+    - name: Peggy's Book Corner
+      link: /books
 - name: About
   link: \#
   dropdown:
