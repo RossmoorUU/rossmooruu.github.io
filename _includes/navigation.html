@@ -22,12 +22,12 @@
             {% if item.dropdown %}
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="{{ item.link }}" id="navbarDropdown{{ forloop.index }}"
-                   role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   {{ item.name }}
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
                   {% for subitem in item.dropdown %}
-                    <li><a class="dropdown-item" href="{{ subitem.link }}">{{ subitem.name }}</a></li>
+                    <li><a class="dropdown-item" href="{{ subitem.link }}" {% if subitem.target %} target="{{ subitem.target }}" {% endif %}>{{ subitem.name }}</a></li>
                   {% endfor %}
                 </ul>
               </li>
