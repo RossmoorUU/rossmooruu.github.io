@@ -1,18 +1,20 @@
 # events.yml
 
-- title: Independance Day Celebration
-  date: Friday, July 4, 2025
-  description: The annual event will feature entertainment starting at 10:30 a.m. on the Rotary Stage, 
-    including performances by local bands and musicians, comedy, traditional Hawaiian dance, and vocalists.<br>
-    <br>The Rotary Club of Rossmoor is hosting a lunch event from 11am-1pm at the Dollar parking lot, featuring 
-    a meal deal for $10 with hot dog or sausage options, plus food trucks offering Mexican food and ice cream.
-  link: https://rossmoornews-ca.newsmemory.com/?selDate=20250625&goTo=B01&artid=0&editionStart=Rossmoor%20News
-  image: july4th.webp
+- title: Peggy's Book Corner
+  date: New in the resources section
+  description: Peggy’s Book Corner is a collection of titles chosen to inspire reflection, foster growth, 
+    and spark meaningful conversations within our community.
+  link: /books
+  image: book-corner.webp
+- title: RAD Summer Dance 
+  date: Sunday, July 20, 2025
+  description: Rossmoor Advocates for Diversity (RAD) is excited to announce its fourth annual 
+    dance event, “RAD Rocks,” on Sunday, July 20, from 6 to 9 p.m. at the Rossmoor Event Center.
+  link: https://rossmoorrad.org/event/rad-rocks-dance-party
+  image: rad-logo.jpg
 - title: Breath and Spirit Retreat at MDUUC
   date: Saturday, October 11, 2025
   description: Breath and Spirit half-day spiritual retreat will focus on cultivating the resources of inner peace. 
     Understanding how we can bring resources to our own hearts is a vital way we can stay tenacious, persistent and engaged. 
-    Through meditation, reflection, song, chant and art, we will remind ourselves of the rich troves of inner strength 
-    we have within our own hearts and which can be a lifeline in these times of uncertainty and change.
   link: https://mduuc.churchcenter.com/calendar/event/191466714
   image: breath-spirit.png
