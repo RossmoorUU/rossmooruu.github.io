@@ -15,8 +15,9 @@ layout: default
             <p>Doors open at 11:15 with the program to begin at 11:30.</p>
         </div>
         <div class="row">
-            <div class="col-4">
-                <img src="assets/images/{{ program.image }}" class="img-fluid">
+            <div class="col-4 fs-6">
+                <img src="assets/images/{{ program.image }}" class="img-fluid" alt="{{ program.image_alt }}">
+                <p class="small">{{ program.image_attribution }}</p>
             </div>
             <div class="col-8">
                 <h2>{{ program.title }}</h2>
