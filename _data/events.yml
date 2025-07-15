@@ -1,11 +1,12 @@
 # events.yml
 
-- title: Peggy's Book Corner
-  date: New in the resources section
-  description: Peggy’s Book Corner is a collection of titles chosen to inspire reflection, foster growth, 
-    and spark meaningful conversations within our community.
-  link: /books
-  image: book-corner.webp
+- title: Good Trouble Lives On
+  date: Thursday, July 17, 2025 5:00 p.m.
+  description: Celebrate the life and legacy of civil rights icon Rep. John Lewis on the 5th anniversary of his passing. 
+    Join a peaceful demonstration at the pedestrian overpass on Treat Boulevard at Jones Road at 5:00 p.m. (park in the 
+    Pleasant Hill BART parking lot).
+  link: https://www.mobilize.us/john-lewis-actions/event/812285/
+  image: john-lewis-july-17.avif
 - title: RAD Summer Dance 
   date: Sunday, July 20, 2025
   description: Rossmoor Advocates for Diversity (RAD) is excited to announce its fourth annual 
