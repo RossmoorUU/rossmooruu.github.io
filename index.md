@@ -12,7 +12,9 @@ layout: default
         {% for program in site.data.next_program %}
         <div class="row">
             <h2>{{ program.date }}</h2>
+            {% if program.date> "" %}
             <p>Doors open at 11:15 with the program to begin at 11:30.</p>
+            {% endif %}
         </div>
         <div class="row">
             <div class="col-4 fs-6">
