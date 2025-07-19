@@ -1,18 +1,20 @@
 # events.yml
 
-- title: Good Trouble Lives On
-  date: Thursday, July 17, 2025 5:00 p.m.
-  description: Celebrate the life and legacy of civil rights icon Rep. John Lewis on the 5th anniversary of his passing. 
-    Join a peaceful demonstration at the pedestrian overpass on Treat Boulevard at Jones Road at 5:00 p.m. (park in the 
-    Pleasant Hill BART parking lot).
-  link: https://goodtroubleliveson.org/#about
-  image: john-lewis-july-17.avif
 - title: RAD Summer Dance 
   date: Sunday, July 20, 2025
   description: Rossmoor Advocates for Diversity (RAD) is excited to announce its fourth annual 
     dance event, “RAD Rocks,” on Sunday, July 20, from 6 to 9 p.m. at the Rossmoor Event Center.
   link: https://rossmoorrad.org/event/rad-rocks-dance-party
   image: rad-logo.jpg
+- title: Discover the Divine Feminine!
+  date: Monday, July 21, 2025 2:00 p.m.
+  description: The Big Questions Forum invites you to delve into the power of the Divine Feminine!<br>
+    Join the Interfaith Council of Rossmoor in the Diablo Room at Hillside for a presentation by Rev. Dr. Megan Wagner. 
+    She will introduce "The Feminine Path of Power," a modern initiation designed to connect women with their 
+    inner strength, compassion, and spiritual essence. <br>Discover how your faith or spiritual path aligns 
+    with the Divine Feminine and awaken to a deeper connection with yourself and the world around you. 
+  link: https://rossmoornews-ca.newsmemory.com?selDate=20250716&goTo=B10&artid=1&editionStart=Rossmoor%20News
+  image: lightning.jpg
 - title: U.S. Rep. DeSaulnier Town Hall
   date: Tuesday, July 29, 2025 3:00 p.m.
   description: Join Congressman Mark DeSaulnier for a town hall meeting to discuss how recent changes to Medicare and Social Security will affect you. 
