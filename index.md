@@ -23,6 +23,7 @@ layout: default
             </div>
             <div class="col-8">
                 <h2>{{ program.title }}</h2>
+                <h3>{{ program.subtitle }}</h3>
                 <p>{{ program.description  }}</p>
                 <h3>{{ program.speaker }}</h3>
                 <p>{{ program.biography }}</p>
@@ -31,7 +32,7 @@ layout: default
         {% endfor %}
     </div>
     <hr>
-    <div class="row">
+<!--     <div class="row">
         <h2>Upcoming Events</h2>
         <p>Here are some events that may be of interest. They are not necesarily affiliated with 
         Rossmoor UU.</p><hr>
@@ -50,4 +51,4 @@ layout: default
         </div>
         {% endfor %}
     </div>
-</section>
+ --></section>
