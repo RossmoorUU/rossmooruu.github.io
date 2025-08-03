@@ -17,9 +17,14 @@ title: About Rossmoor UU
                 <p>Our monthly gatherings take place on the second Friday of each month in the Vista Room of the Hillside complex at 11:30 am. Each meeting features a brown bag lunch program, where we come together to share food, conversation, and ideas. We invite all Rossmoor residents and their guests to join us for these informal and engaging events.</p>
                 <h2>Getting Involved</h2>
                 <p>If you're interested in learning more about our community or would like to get involved, please contact us. We look forward to welcoming you to our table!</p>
+                <script>
+                    // Replace 'localhost' or your server IP address accordingly
+                    const iframeSrc = "http://forms.rossmooruu.org:5000/";
+                    document.write('<iframe src="' + iframeSrc + '" style="width:100%;height:550px;border:none"></iframe>');
+                </script>
                 <h3>Interested in helping with the website?</h3>
                 <p>If you are interested in helping with the Rossmoor UU website, please 
-                <a href="mailto:rossmooruu@gmail.com?subject=Website Volunteer">contact Steve Ogden</a>. No experience necessary.</p>
+                <a href="mailto:steve@rossmooruu.org?subject=Website Volunteer">contact Steve Ogden</a>. No experience necessary.</p>
             </div>
         </div>
     </div>
