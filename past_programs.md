@@ -4,7 +4,7 @@ layout: default
 ---
 <section>
     <div class="container text-center">
-        <h1>Rossmoor Unitarian Universalists - Past Programs</h1>
+        <h1>Past Programs</h1>
         <p class="lead text-muted"></p>
         <p></p>
     </div>

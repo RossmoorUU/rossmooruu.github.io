@@ -4,7 +4,7 @@ layout: default
 ---
 <section>
     <div class="container text-center home-head">
-        <h1>Rossmoor Unitarian Universalists</h1>
+        <h1>Unitarian Universalists of Rossmoor</h1>
         <p class="lead text-muted">We meet in the Vista Room of the Hillside complex at 11:15 a.m. on the second Friday of each month for a brown-bag lunch program.</p>
         <p></p>
     </div>
