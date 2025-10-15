@@ -16,6 +16,7 @@
       link: /books
     - name: Virtual Chalice
       link: /chalice/index.html
+      target: _blank
     - name: Stop Gun Violence Resources
       link: /stop_gun_violence_resources.html
     - name: MDUUC Newsletter
