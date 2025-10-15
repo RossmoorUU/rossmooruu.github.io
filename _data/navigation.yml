@@ -14,10 +14,12 @@
       link: /nearby_uu_churches
     - name: Peggy's Book Corner
       link: /books
+    - name: Virtual Chalice
+      link: /chalice/index.html
     - name: Stop Gun Violence Resources
       link: /stop_gun_violence_resources.html
     - name: MDUUC Newsletter
-      link: assets/pdfs/September-2025-Beacon-1.pdf
+      link: assets/pdfs/October-2025-Beacon.pdf
       target: _blank
 - name: About
   link: \#
