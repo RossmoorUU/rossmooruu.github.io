@@ -14,28 +14,23 @@ layout: default
         {% for program in site.data.next_program %}
         <div class="row">
             <h2>{{ program.date }}</h2>
+            {% if program.date> "" %}
             <p>Doors open at 11:15 with the program to begin at 11:30.</p>
+            {% endif %}
         </div>
         <div class="row">
-            <div class="col-3">
-                <img src="assets/images/{{ program.image }}" class="img-fluid">
+            <div class="col-4 fs-6">
+                <img src="assets/images/{{ program.image }}" class="img-fluid" alt="{{ program.image_alt }}">
+                <p class="small">{{ program.image_attribution }}</p>
             </div>
-            <div class="col-9">
+            <div class="col-8">
                 <h2>{{ program.title }}</h2>
+                <h3>{{ program.subtitle }}</h3>
                 <p>{{ program.description  }}</p>
+                <h3>{{ program.speaker }}</h3>
+                <p>{{ program.biography }}</p>
             </div>
         </div>
-         <div class="row">
-            <h2>Speakers</h2>
-            {% for speaker in program.speaker %}
-            <div class="col-12 col-md-4">
-                <h4 style="text-align: center;">{{ speaker.name }}</h4>
-                <p><img src="assets/images/{{speaker.image}}" class="float-start w-50 p-2" alt="{{ speaker.image_alt }}">
-                {{ speaker.biography }}</p>
-            </div>
-            {% endfor %}
-        </div>
-        <hr>
         {% endfor %}
     </div>
 </section>
