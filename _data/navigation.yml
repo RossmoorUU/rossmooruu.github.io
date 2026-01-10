@@ -5,6 +5,8 @@
   dropdown:
     - name: This Year
       link: /past_programs
+    - name: 2025 Programs
+      link: /past_programs_2025
     - name: Prior Years
       link: /older_programs
 - name: Resources
