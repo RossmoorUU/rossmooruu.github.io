@@ -9,38 +9,62 @@
 
 <url>
   <loc>https://rossmooruu.org/</loc>
-  <lastmod>2025-06-09T18:55:30+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://rossmooruu.org/past_programs</loc>
-  <lastmod>2025-06-09T18:55:30+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rossmooruu.org/past_programs_2025</loc>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rossmooruu.org/older_programs</loc>
-  <lastmod>2025-06-09T18:55:30+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rossmooruu.org/nearby_uu_churches</loc>
-  <lastmod>2025-06-09T18:55:30+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rossmooruu.org/books</loc>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rossmooruu.org/chalice/index.html</loc>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rossmooruu.org/stop_gun_violence_resources.html</loc>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rossmooruu.org/assets/pdfs/January-2026-Beacon.pdf</loc>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rossmooruu.org/about_unitarian_universalism</loc>
-  <lastmod>2025-06-09T18:55:30+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rossmooruu.org/about_rossmoor_uu</loc>
-  <lastmod>2025-06-09T18:55:30+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rossmooruu.org/uua_statements</loc>
+  <lastmod>2026-01-10T02:41:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
