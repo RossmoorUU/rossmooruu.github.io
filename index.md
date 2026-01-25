@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 <section>
-    <!-- {% include banner.html %} -->
+    {% include banner.html %} 
     <div class="container text-center home-head">
         <h1>Unitarian Universalists of Rossmoor</h1>
         <p class="lead text-muted">We are dedicated to nurturing spiritual growth, fostering inclusive fellowship, 
