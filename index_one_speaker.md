@@ -3,9 +3,12 @@ title: Home
 layout: default
 ---
 <section>
+    <!--{% include banner.html %}--> 
     <div class="container text-center home-head">
         <h1>Unitarian Universalists of Rossmoor</h1>
-        <p class="lead text-muted">We meet in the Vista Room of the Hillside complex at 11:15 a.m. on the second Friday of each month for a brown-bag lunch program.</p>
+        <p class="lead text-muted">We are dedicated to nurturing spiritual growth, fostering inclusive fellowship, 
+        and promoting compassion, justice, and lifelong learning. We meet the second Friday of every month in the Vista Room
+        of the Hillside Complex. </p>
         <p></p>
     </div>
     <div class="container">
@@ -31,24 +34,4 @@ layout: default
         </div>
         {% endfor %}
     </div>
-    <hr>
-<!--     <div class="row">
-        <h2>Upcoming Events</h2>
-        <p>Here are some events that may be of interest. They are not necesarily affiliated with 
-        Rossmoor UU.</p><hr>
-        {% for event in site.data.events %}
-        <div class="col-12 col-md-4">
-            <h3 style="text-align: center;">{{ event.title }}</h3>
-            <h4 style="text-align: center;">{{ event.date }}</h4>
-            <p>{{ event.description }}</p>
-            {% if event.link > "" %}
-                <p><a href="{{ event.link }}" target="_blank">For more information</a></p>
-            {% endif %}
-            {% if event.image > "" %}
-                <img src="assets/images/{{ event.image }}" class="img-fluid">
-            {% endif %}
-            <hr>
-        </div>
-        {% endfor %}
-    </div>
- --></section>
+</section>

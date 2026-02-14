@@ -4,9 +4,9 @@ layout: default
 ---
 <section>
     <div class="container text-center home-head">
-        <h1>Rossmoor Unitarian Universalists</h1>
-        <p class="lead text-muted">The place to find information about upcoming programs, speakers, and other resources
-        for the Rossmoor Community.</p>
+        <p class="lead text-muted">We are dedicated to nurturing spiritual growth, fostering inclusive fellowship, 
+        and promoting compassion, justice, and lifelong learning. We meet the second Friday of every month in the Vista Room
+        of the Hillside Complex. </p>
         <p></p>
     </div>
     <div class="container">
