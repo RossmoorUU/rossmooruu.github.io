@@ -3,11 +3,10 @@
   date: Friday, March 13, 2026
   description: Join us for an enlightening brown bag lunch presentation on Friday, March 13th, at 11:30 a.m., in the Vista 
     Room of the Hillside Complex at Rossmoor. Our guest speakers will be Dr. Cecelia Wambach and Dr. Carolie Sly of Refugee Education 
-    and Learning International<br><br>
-    Refugee Education and Learning International (REAL) is a nonprofit organization established in 2017, initially formed to 
-    provide education to refugee children and youth stranded on the Greek island of Lesvos following the EU's border closure 
-    in 2016. REAL began with volunteer educators teaching various subjects, including math, science, English, and later expanded 
-    to include a Girls Empowerment Program offering swimming and biking lessons. In response to the COVID-19 pandemic, REAL 
+    and Learning International<br><br>Refugee Education and Learning International (REAL) is a nonprofit organization established in 
+    2017, initially formed to provide education to refugee children and youth stranded on the Greek island of Lesvos following the EU's 
+    border closure in 2016. REAL began with volunteer educators teaching various subjects, including math, science, English, and later 
+    expanded     to include a Girls Empowerment Program offering swimming and biking lessons. In response to the COVID-19 pandemic, REAL 
     developed a Virtual Learning Program in 2020, enabling volunteer educators to teach English online to students across multiple 
     countries.<br><br>REAL also launched a Scholarship Fund in 2021 to support talented and promising students facing difficulties 
     continuing their education. Most recently, in 2023, the organization began offering virtual teaching to girls and young women 
@@ -16,7 +15,7 @@
   image: real_logo.png
   image_alt: Refugee Education and Learning International logo
   speaker:
-    - name: Cecelia Wambach
+    - name: Dr. Cecelia Wambach
       image: cecelia_wambach.jpeg
       image_alt: image of Cecelia Wambach
       biography: Dr. Cecelia Wambach spent most of her working life as a Math Education Professor at San Francisco State University. 
