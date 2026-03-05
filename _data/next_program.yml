@@ -2,29 +2,23 @@
 - title: Refugee Education and Learning International
   date: Friday, March 13, 2026
   description: Join us for an enlightening brown bag lunch presentation on Friday, March 13th, at 11:30 a.m., in the Vista 
-    Room of the Hillside Complex at Rossmoor. Our guest speakers will be Dr. Cecelia Wambach and Dr. Carolie Sly of Refugee Education 
-    and Learning International<br><br>Refugee Education and Learning International (REAL) is a nonprofit organization established in 
+    Room of the Hillside Complex at Rossmoor. Our guest speaker will be Dr. Cecelia Wambach of Refugee Education 
+    and Learning International.<br><br>
+    Dr. Wambach's presentation will provide an overview of REAL International's history, its current initiatives, and the challenges 
+    faced by refugees today. She will be joined by Soghra Sadaqat, a refugee from Afghanistan who has benefited from REAL International's 
+    programs and will share her personal story. 
+    <br><br>Refugee Education and Learning International (REAL) is a nonprofit organization established in 
     2017, initially formed to provide education to refugee children and youth stranded on the Greek island of Lesvos following the EU's 
     border closure in 2016. REAL began with volunteer educators teaching various subjects, including math, science, English, and later 
-    expanded     to include a Girls Empowerment Program offering swimming and biking lessons. In response to the COVID-19 pandemic, REAL 
+    expanded to include a Girls Empowerment Program offering swimming and biking lessons. In response to the COVID-19 pandemic, REAL 
     developed a Virtual Learning Program in 2020, enabling volunteer educators to teach English online to students across multiple 
     countries.<br><br>REAL also launched a Scholarship Fund in 2021 to support talented and promising students facing difficulties 
     continuing their education. Most recently, in 2023, the organization began offering virtual teaching to girls and young women 
     in Afghanistan with an enrollment of 13 teachers and 24 students in their Virtual Teaching Program by 2025. REAL continues its 
-    mission to empower refugees through education, skill-building, and providing opportunities for personal growth.
-  image: real_logo.png
-  image_alt: Refugee Education and Learning International logo
-  speaker:
-    - name: Dr. Cecelia Wambach
-      image: Cecelia_Wambach.jpeg
-      image_alt: image of Cecelia Wambach
-      biography: Dr. Cecelia Wambach spent most of her working life as a Math Education Professor at San Francisco State University. 
+    mission to empower refugees through education, skill-building, and providing opportunities for personal growth. 
+  image: Cecelia_Wambach.jpeg
+  image_alt: image of Cecelia Wambach
+  speaker: Dr. Cecelia Wambach
+  biography: Dr. Cecelia Wambach spent most of her working life as a Math Education Professor at San Francisco State University. 
         She has held diverse roles in education - teacher, principal, workshop leader, and student teacher supervisor. She has a 
         TESOL credential (Teaching English as a Second Language) and is a professional artist.
-    - name: Dr. Carolie Sly
-      image: Carolie_Sly.jpeg
-      image_alt: image of Carolie Sly
-      biography: Dr. Carolie Sly is the former director of education programs at the Center for Ecoliteracy in Berkeley, California. 
-        She holds a Ph.D. from U.C. Berkeley in science education and has worked with many San Francisco Bay Area public and private 
-        schools. Dr. Sly has been a classroom teacher, principal of an alternative high school, science coordinator for the Alameda 
-        County Superintendent of Schools, and author of many highly regarded science and environmental education curricula.
