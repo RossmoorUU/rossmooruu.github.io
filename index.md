@@ -30,7 +30,7 @@ layout: default
                 <h3>{{ program.subtitle }}</h3>
                 <p>{{ program.description  }}</p>
                 <h3>{{ program.speaker }}</h3>
-                <p>{{ program.biography }}</p>
+                <p>{{ program.speaker_bio }}</p>
             </div>
         </div>
         {% endfor %}
