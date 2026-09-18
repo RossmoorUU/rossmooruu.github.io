@@ -1,14 +1,11 @@
-title: Rossmoor UU
-description: Official website for Rossmoor UU. Built with Jekyll and hosted on GitHub Pages.
+title: Unitarian Universalists of Rossmoor
+description: A welcoming Unitarian Universalist fellowship in Rossmoor, Walnut Creek, CA. Join us Fridays for programs on spirituality, justice and community.
 baseurl: "" # Leave empty for root directory
 url: "https://rossmooruu.org" # Your website URL
 
 # Build settings
-# markdown: kramdown
-# theme: minima
-# plugins:
-#  - jekyll-feed
-#  - jekyll-sitemap
+plugins:
+  - jekyll-sitemap
 
 # Exclude files and directories from processing
 exclude:
