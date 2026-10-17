@@ -1,26 +1,133 @@
+/* ==========================================================================
+   Rossmoor UU — styles
+   Bootstrap 5.3 does the layout; this file carries the brand.
+
+   Everything below the token block is expressed in tokens so the palette and
+   type scale can change in one place. Contrast ratios are noted where a value
+   was chosen for accessibility: the audience is largely over 70.
+   ========================================================================== */
+
+:root {
+  /* Surfaces */
+  --paper: #fdfbf6;        /* page background, replaces the old #fafafa */
+  --paper-2: #f3eee3;      /* recessed bands, footer */
+  --card: #ffffff;
+
+  /* Ink */
+  --ink: #232019;          /* body copy, 14.8:1 on --paper */
+  --ink-soft: #5a5348;     /* secondary copy, 7.3:1 on --paper */
+  --line: #e4dccf;
+
+  /* Brand */
+  --teal: #17494a;         /* header bar, links, buttons */
+  --teal-deep: #0e3536;    /* hover, dark bands */
+  --amber: #9c5526;        /* accent, 5.4:1 on --paper */
+
+  /* Type */
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+
+  --measure: 68ch;
+}
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+
+html {
+  /* 18px root rather than 16px: the club's readers are mostly over 70 and the
+     previous 16px base made the archive pages needlessly hard work. */
+  font-size: 112.5%;
+}
+
 body {
-  background: #fafafa;
-  color: #333333;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.5em;
+}
+
+h1 { font-size: clamp(1.9rem, 3.2vw, 2.75rem); }
+h2 { font-size: 1.65rem; }
+h3 { font-size: 1.3rem; }
+h4 { font-size: 1.12rem; }
+h5, h6 { font-size: 1rem; }
+
+p, li {
+  max-width: var(--measure);
+}
+
+p {
+  margin-bottom: 1.1em;
 }
 
 ul {
   margin: 0;
 }
 
+a {
+  color: var(--teal);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--teal-deep);
+}
+
+a:focus-visible,
+button:focus-visible,
+.navbar-toggler:focus-visible {
+  outline: 3px solid var(--amber);
+  outline-offset: 2px;
+}
+
+hr {
+  border-color: var(--line);
+  opacity: 1;
+}
+
+.lead {
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+}
+
+/* Bootstrap's default secondary colour is a cool grey that reads blue next to
+   the warm paper; this keeps muted copy on-palette and at 7.3:1. */
+.text-muted {
+  color: var(--ink-soft) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Header and navigation
+   -------------------------------------------------------------------------- */
+
+/* The navbar used to be position:fixed with a 170px spacer here to keep the
+   content clear of it — and on phones the spacer was dropped, which let the bar
+   cover the top of the homepage heading. The bar now scrolls with the page, so
+   the spacer is gone at every width and nothing can hide under it. */
+.site-header {
+  min-height: 0;
+}
+
+/* Legacy class name kept so the template keeps working; it now maps to the
+   brand teal instead of the 2014 slate. */
 .bg-steel {
-  background-color: #5f788a;
+  background-color: var(--teal);
 }
 
 .bg-yellow {
-  background-color: #febe10;
-}
-
-.site-header {
-  min-height: 170px;
+  background-color: var(--amber);
 }
 
 /* The logo is authored at 300x94. Cap it so it never overflows a phone and
@@ -34,10 +141,16 @@ ul {
   max-width: 100%;
 }
 
+.site-header .navbar {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
 .site-header .navbar-nav .nav-link {
-  /* #cbd5db on the #5f788a bar measured 3.1:1, below the 4.5:1 WCAG AA floor.
-     White is the only shade that clears it on this background. */
+  /* #cbd5db on the old slate measured 3.1:1, below the 4.5:1 WCAG AA floor.
+     White on --teal is 9.6:1. */
   color: #ffffff;
+  font-size: 0.95rem;
   text-decoration: none;
 }
 
@@ -53,20 +166,29 @@ ul {
   text-underline-offset: 3px;
 }
 
+.dropdown-menu {
+  border-color: var(--line);
+  box-shadow: 0 8px 24px -12px rgba(35, 32, 25, 0.28);
+}
+
+/* --------------------------------------------------------------------------
+   Content blocks used across the older pages
+   -------------------------------------------------------------------------- */
+
 .content-section {
-  background: #ffffff;
-  padding: 10px 20px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
-  margin-bottom: 20px;
+  background: var(--card);
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
 }
 
 .article-title {
-  color: #444444;
+  color: var(--ink);
 }
 
 a.article-title:hover {
-  color: #428bca;
+  color: var(--teal);
   text-decoration: none;
 }
 
@@ -83,11 +205,11 @@ a.article-title:hover {
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+  border-bottom: 1px solid var(--line);
 }
 
 .article-metadata a:hover {
-  color: #333;
+  color: var(--ink);
   text-decoration: none;
 }
 
@@ -108,6 +230,43 @@ a.article-title:hover {
   font-size: 2.5rem;
 }
 
+/* Programme pages are a stack of rows separated by <hr>; give them room. */
+section > .container > .row {
+  margin-bottom: 0.5rem;
+}
+
+/* Photographs are screenshots of people, not decoration: no rounded corners
+   fighting the headshot crops, and a hairline so a pale photo stays distinct
+   from the paper. */
+.container img.img-fluid {
+  border-radius: 6px;
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+.footer {
+  background: var(--paper-2) !important;
+  border-top: 1px solid var(--line);
+  color: var(--ink-soft);
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+  max-width: var(--measure);
+}
+
+.footer a {
+  color: var(--teal);
+}
+
+/* --------------------------------------------------------------------------
+   Small screens
+   -------------------------------------------------------------------------- */
+
 @media (max-width: 768px) {
   /* The churches table is unusably wide on a phone; drop the raw URL column
      and keep the church name and city. */
@@ -122,7 +281,7 @@ a.article-title:hover {
     width: auto;
   }
 
-  .site-header {
-    min-height: auto;
+  .lead {
+    font-size: 1.05rem;
   }
 }
