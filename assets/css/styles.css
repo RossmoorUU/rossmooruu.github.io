@@ -112,8 +112,12 @@ hr {
    Header and navigation
    -------------------------------------------------------------------------- */
 
+/* The navbar used to be position:fixed with a 170px spacer here to keep the
+   content clear of it — and on phones the spacer was dropped, which let the bar
+   cover the top of the homepage heading. The bar now scrolls with the page, so
+   the spacer is gone at every width and nothing can hide under it. */
 .site-header {
-  min-height: 170px;
+  min-height: 0;
 }
 
 /* Legacy class name kept so the template keeps working; it now maps to the
@@ -275,10 +279,6 @@ section > .container > .row {
   .site-logo {
     height: 56px;
     width: auto;
-  }
-
-  .site-header {
-    min-height: auto;
   }
 
   .lead {
