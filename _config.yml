@@ -3,6 +3,11 @@ description: A welcoming Unitarian Universalist fellowship in Rossmoor, Walnut C
 baseurl: "" # Leave empty for root directory
 url: "https://rossmooruu.org" # Your website URL
 
+# EmailOctopus sign-up form id (the uuid in the dashboard's "Add to your website"
+# snippet). Leave empty to show the mailto fallback in _includes/signup.html
+# instead. Never put the EmailOctopus API key here — this file ships to visitors.
+emailoctopus_form_id: ""
+
 # Build settings
 plugins:
   - jekyll-sitemap

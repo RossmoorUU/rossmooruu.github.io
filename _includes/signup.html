@@ -1,0 +1,35 @@
+{% comment %}
+  Mailing list sign-up.
+
+  EmailOctopus forms are created in their dashboard and embedded by script; the
+  account API key is deliberately NOT used here, because this site is static and
+  anything in this file ships to every visitor. Set `emailoctopus_form_id` in
+  _config.yml to the form's id (the uuid in the embed snippet) and the real form
+  renders. Until then the section offers the mailto fallback, which works today
+  and does not pretend to be a form that cannot submit.
+{% endcomment %}
+<div class="container">
+    <div class="signup-band" id="mailing-list">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-7">
+                <h2>The Beacon, by email</h2>
+                <p>One email a month: the next program, speaker notes, and news from the club.
+                    No spam, and you can unsubscribe at any time.</p>
+            </div>
+            <div class="col-lg-5">
+                {% if site.emailoctopus_form_id and site.emailoctopus_form_id != "" %}
+                <script async src="https://eomail5.com/form/{{ site.emailoctopus_form_id }}.js"
+                    data-form="{{ site.emailoctopus_form_id }}"></script>
+                <noscript>
+                    <p><a href="mailto:info@rossmooruu.org?subject=Join%20the%20mailing%20list">Email us to be added to the list.</a></p>
+                </noscript>
+                {% else %}
+                <p class="signup-fallback">Ask to be added and we will put you on the list:</p>
+                <a class="btn btn-amber"
+                    href="mailto:info@rossmooruu.org?subject=Join%20the%20mailing%20list&amp;body=Please%20add%20me%20to%20the%20Rossmoor%20UU%20monthly%20email%20list.">Email
+                    info@rossmooruu.org</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

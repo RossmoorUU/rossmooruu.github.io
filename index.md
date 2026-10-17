@@ -157,6 +157,8 @@ layout: default
         </div>
     </div>
 
+    {% include signup.html %}
+
     <div class="container">
         <div class="uu-band">
             <div class="row g-4 align-items-center">
