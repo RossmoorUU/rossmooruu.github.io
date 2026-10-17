@@ -40,9 +40,11 @@ layout: default
                             {% if program.image %}
                             <img src="assets/images/{{ program.image }}" alt="{{ program.image_alt | default: program.speaker }}">
                             {% endif %}
+                            {% if program.image2 %}
+                            <img src="assets/images/{{ program.image2 }}" alt="{{ program.image2_alt | default: program.speaker2 }}">
+                            {% endif %}
                             <div class="who">
-                                <strong>{{ program.speaker }}</strong>
-                                {% if program.speaker2 %}<br>{{ program.speaker2 }}{% endif %}
+                                <strong>{{ program.speaker }}</strong>{% if program.speaker2 %} and <strong>{{ program.speaker2 }}</strong>{% endif %}
                             </div>
                         </div>
                         {% endif %}
@@ -142,8 +144,12 @@ layout: default
             <div class="col-md-4">
                 <article class="pcard">
                     <span class="k">{{ program.date }}</span>
-                    {% if program.title %}<h3>{{ program.title }}</h3>{% endif %}
-                    {% if program.speaker %}<p class="pcard-who">{{ program.speaker }}</p>{% endif %}
+                    {% if program.title %}
+                    <h3>{{ program.title }}</h3>
+                    {% elsif program.speaker %}
+                    <h3>{{ program.speaker }}</h3>
+                    {% endif %}
+                    {% if program.title and program.speaker %}<p class="pcard-who">{{ program.speaker }}</p>{% endif %}
                 </article>
             </div>
             {% endif %}
