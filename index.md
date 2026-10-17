@@ -33,7 +33,7 @@ layout: default
         <div class="row">
             {% if program.image %}
             <div class="col-4 fs-6">
-                <img src="assets/images/{{ program.image }}" class="img-fluid" alt="{{ program.image_alt }}">
+                <img src="assets/images/{{ program.image }}" class="img-fluid" alt="{{ program.image_alt | default: program.speaker }}">
                 {% if program.image_attribution %}
                 <p class="small">{{ program.image_attribution }}</p>
                 {% endif %}
@@ -49,7 +49,7 @@ layout: default
         <div class="row">
             {% if program.image2 %}
             <div class="col-4 fs-6">
-                <img src="assets/images/{{ program.image2 }}" class="img-fluid" alt="{{ program.image2_alt }}">
+                <img src="assets/images/{{ program.image2 }}" class="img-fluid" alt="{{ program.image2_alt | default: program.speaker2 }}">
             </div>
             {% endif %}
             <div class="{% if program.image2 %}col-8{% else %}col-12{% endif %}">
