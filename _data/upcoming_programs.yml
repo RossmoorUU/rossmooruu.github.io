@@ -1,0 +1,10 @@
+---
+# Programs already confirmed for the months after the one in next_program.yml.
+# The homepage lists these after the current program. Keep entries minimal:
+# a date, and whatever the club has actually settled on (title and/or speaker).
+# A field that is not set renders nothing rather than an empty heading.
+- title: Holiday Reflections
+  date: Friday, December 11, 2026
+
+- date: Friday, January 8, 2027
+  speaker: Rev. Leslie Takahashi

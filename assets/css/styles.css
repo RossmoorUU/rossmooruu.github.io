@@ -264,10 +264,301 @@ section > .container > .row {
 }
 
 /* --------------------------------------------------------------------------
+   Homepage: hero, next-program card, facts strip, cards, UU band
+   -------------------------------------------------------------------------- */
+
+.home-hero {
+  padding: 2.75rem 0 2.5rem;
+}
+
+.eyebrow {
+  color: var(--amber);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  max-width: none;
+}
+
+.btn-teal,
+.btn-outline-teal {
+  align-items: center;
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.7rem 1.15rem;
+  text-decoration: none;
+  transition: background-color 0.18s ease, color 0.18s ease;
+}
+
+.btn-teal {
+  background: var(--teal);
+  border: 1.5px solid var(--teal);
+  color: #ffffff;
+}
+
+.btn-teal:hover {
+  background: var(--teal-deep);
+  border-color: var(--teal-deep);
+  color: #ffffff;
+}
+
+.btn-outline-teal {
+  border: 1.5px solid var(--teal);
+  color: var(--teal);
+}
+
+.btn-outline-teal:hover {
+  background: rgba(23, 73, 74, 0.08);
+  color: var(--teal-deep);
+}
+
+/* The next program is the one thing a visitor came for, so it sits beside the
+   heading rather than below a paragraph of mission text. */
+.tf-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px -14px rgba(35, 32, 25, 0.35);
+  overflow: hidden;
+}
+
+.tf-head {
+  align-items: center;
+  background: var(--teal);
+  color: #ffffff;
+  display: flex;
+  gap: 0.9rem;
+  padding: 1rem 1.4rem;
+}
+
+.datechip {
+  background: #ffffff;
+  border-radius: 10px;
+  color: var(--teal-deep);
+  line-height: 1;
+  min-width: 56px;
+  padding: 0.35rem 0.6rem;
+  text-align: center;
+}
+
+.datechip .m {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.datechip .d {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.15rem;
+}
+
+.tf-head .lbl {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  opacity: 0.85;
+  text-transform: uppercase;
+}
+
+.tf-head .when {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.tf-body {
+  padding: 1.4rem;
+}
+
+.tf-sub {
+  color: var(--ink-soft);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.speakers {
+  align-items: center;
+  border-top: 1px solid var(--line);
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.speakers img {
+  border-radius: 50% !important;
+  flex: none;
+  height: 64px;
+  object-fit: cover;
+  width: 64px;
+}
+
+.speakers .who {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  line-height: 1.4;
+  max-width: none;
+}
+
+.speakers .who strong {
+  color: var(--ink);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.1rem;
+}
+
+.chip {
+  background: #f1ebdf;
+  border-radius: 999px;
+  color: #4a4438;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.35rem 0.7rem;
+}
+
+/* When / where / who, answered in one band instead of a sentence in the
+   middle of a paragraph. */
+.facts {
+  background: var(--teal-deep);
+  border-radius: 14px;
+  color: #efe7d9;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 2.5rem;
+  padding: 2rem 1.5rem;
+}
+
+.fact h3 {
+  color: #c9a98a;
+  font-family: var(--font-body);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.fact p {
+  color: #efe7d9;
+  font-size: 1rem;
+  margin: 0;
+  max-width: none;
+}
+
+.fact strong {
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+
+.sec-head {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.sec-head p {
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+  margin: 0;
+}
+
+.speaker-row + .speaker-row {
+  margin-top: 2rem;
+}
+
+.speaker-photo {
+  height: auto;
+  max-width: 100%;
+}
+
+.coming-up {
+  padding: 1rem 0 2.5rem;
+}
+
+.pcard {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  height: 100%;
+  padding: 1.4rem;
+}
+
+.pcard .k {
+  color: var(--amber);
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.pcard h3 {
+  font-size: 1.15rem;
+}
+
+.pcard-who {
+  color: var(--ink-soft);
+  font-size: 0.93rem;
+  margin: 0;
+  max-width: none;
+}
+
+.uu-band {
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  margin-bottom: 3rem;
+  padding: 2.25rem;
+}
+
+.principle-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.principle-list span {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  padding: 0.4rem 0.75rem;
+}
+
+/* --------------------------------------------------------------------------
    Small screens
    -------------------------------------------------------------------------- */
 
 @media (max-width: 768px) {
+  .home-hero {
+    padding: 1.75rem 0 1.5rem;
+  }
+
+  .facts {
+    gap: 1.1rem;
+    grid-template-columns: 1fr;
+    padding: 1.5rem 1.25rem;
+  }
+
+  .uu-band {
+    padding: 1.5rem;
+  }
+
   /* The churches table is unusably wide on a phone; drop the raw URL column
      and keep the church name and city. */
   .church-url {
