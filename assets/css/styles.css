@@ -23,16 +23,34 @@ ul {
   min-height: 170px;
 }
 
+/* The logo is authored at 300x94. Cap it so it never overflows a phone and
+   shrink it in the collapsed navbar, where it is the only thing on the row. */
+.site-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-brand {
+  max-width: 100%;
+}
+
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  /* #cbd5db on the #5f788a bar measured 3.1:1, below the 4.5:1 WCAG AA floor.
+     White is the only shade that clears it on this background. */
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .site-header .navbar-nav .nav-link:hover {
   color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .site-header .navbar-nav .nav-link.active {
-  font-weight: 500;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .content-section {
@@ -91,12 +109,20 @@ a.article-title:hover {
 }
 
 @media (max-width: 768px) {
+  /* The churches table is unusably wide on a phone; drop the raw URL column
+     and keep the church name and city. */
   .church-url {
     display: none;
   }
-}
-@media (max-width: 768px) {
-  .home-head {
-    display: none;
+
+  /* The collapsed navbar has one row for the logo plus the toggler; a 300px
+     logo leaves no breathing room, so scale it down on small screens. */
+  .site-logo {
+    height: 56px;
+    width: auto;
+  }
+
+  .site-header {
+    min-height: auto;
   }
 }

@@ -10,19 +10,25 @@ layout: default
     </div>
     <div class="container">
         {% for program in site.data.past_programs_2025 %}
+        {% if program.title %}
         <div class="row">
             <div class="col-4">
                 <h3>{{ program.date }}</h3>
-                <img src="assets/images/{{ program.image }}" class="img-fluid">
+                {% if program.image %}
+                <img src="assets/images/{{ program.image }}" class="img-fluid" alt="{{ program.image_alt | default: program.speaker }}">
+                {% endif %}
             </div>
             <div class="col-8">
                 <h2>{{ program.title }}</h2>
                 <p>{{ program.description  }}</p>
+                {% if program.speaker %}
                 <h3>{{ program.speaker }}</h3>
+                {% endif %}
                 <p>{{ program.biography }}</p>
             </div>
         </div>
         <hr>
+        {% endif %}
         {% endfor %}
     </div>
 </section>

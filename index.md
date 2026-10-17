@@ -13,6 +13,7 @@ layout: default
     </div>
     <div class="container">
         {% for program in site.data.next_program %}
+        {% if program.title and program.title != "" %}
         <div class="row">
             <h2>{{ program.date }}</h2>
             {% if program.date> "" %}
@@ -28,21 +29,27 @@ layout: default
                 <p>{{ program.description }}</p>
             </div>
         </div>
+        {% if program.speaker %}
         <div class="row">
+            {% if program.image %}
             <div class="col-4 fs-6">
-                <img src="assets/images/{{ program.image }}" class="img-fluid" alt="{{ program.image_alt }}">
+                <img src="assets/images/{{ program.image }}" class="img-fluid" alt="{{ program.image_alt | default: program.speaker }}">
+                {% if program.image_attribution %}
                 <p class="small">{{ program.image_attribution }}</p>
+                {% endif %}
             </div>
-            <div class="col-8">
+            {% endif %}
+            <div class="{% if program.image %}col-8{% else %}col-12{% endif %}">
                 <h3>{{ program.speaker }}</h3>
                 <p>{{ program.speaker_bio }}</p>
             </div>
         </div>
+        {% endif %}
         {% if program.speaker2 %}
         <div class="row">
             {% if program.image2 %}
             <div class="col-4 fs-6">
-                <img src="assets/images/{{ program.image2 }}" class="img-fluid" alt="{{ program.image2_alt }}">
+                <img src="assets/images/{{ program.image2 }}" class="img-fluid" alt="{{ program.image2_alt | default: program.speaker2 }}">
             </div>
             {% endif %}
             <div class="{% if program.image2 %}col-8{% else %}col-12{% endif %}">
@@ -50,6 +57,7 @@ layout: default
                 <p>{{ program.speaker2_bio }}</p>
             </div>
         </div>
+        {% endif %}
         {% endif %}
         {% endfor %}
     </div>
