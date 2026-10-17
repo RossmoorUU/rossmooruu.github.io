@@ -20,10 +20,12 @@ layout: default
             {% endif %}
         </div>
         <div class="row">
+            {% if program.image %}
             <div class="col-4 fs-6">
                 <img src="assets/images/{{ program.image }}" class="img-fluid" alt="{{ program.image_alt | default: program.speaker }}">
                 <p class="small">{{ program.image_attribution }}</p>
             </div>
+            {% endif %}
             <div class="col-8">
                 <h2>{{ program.title }}</h2>
                 <h3>{{ program.subtitle }}</h3>

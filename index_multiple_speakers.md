@@ -31,8 +31,12 @@ layout: default
             {% for speaker in program.speaker %}
             <div class="col-12 col-md-4">
                 <h4 style="text-align: center;">{{ speaker.name }}</h4>
-                <p><img src="assets/images/{{speaker.image}}" class="float-start w-50 p-2" alt="{{ speaker.image_alt }}">
+                {% if speaker.image %}
+                <p><img src="assets/images/{{ speaker.image }}" class="float-start w-50 p-2" alt="{{ speaker.image_alt }}">
                 {{ speaker.biography }}</p>
+                {% else %}
+                <p>{{ speaker.biography }}</p>
+                {% endif %}
             </div>
             {% endfor %}
         </div>
