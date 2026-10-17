@@ -1,0 +1,35 @@
+# Build the Jekyll site on every pull request so template and data errors are
+# caught before merge. The deploy workflow only runs on pushes to main, which
+# means a broken build currently reaches production on the first push.
+name: Build Jekyll (PR)
+
+on:
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Check the built site
+        run: bash .github/scripts/check-built-site.sh
+
+      - name: Upload built site
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-site
+          path: ./_site
+          retention-days: 7
