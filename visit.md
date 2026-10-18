@@ -31,7 +31,7 @@ description: "Directions, gate instructions and what to expect at a Rossmoor UU 
             </div>
             <div class="col-lg-7">
                 <h2>Getting through the gate</h2>
-                <p>Rossmoor is a gated 55+ community. If you live in Rossmoor, you're already in &mdash; just come to the Vista Room. If you're coming from outside, the gate is easy once you know how it works:</p>
+                <p>Rossmoor is a gated community. If you live in Rossmoor, you're already in &mdash; just come to the Vista Room. If you're coming from outside, the gate is easy once you know how it works:</p>
                 <ol class="visit-steps">
                     <li><strong>Let us know you're coming.</strong> Email <a href="mailto:info@rossmooruu.org?subject=Visiting a program">info@rossmooruu.org</a> a few days ahead and we'll let the gate know to expect you.</li>
                     <li><strong>Take the visitor lane.</strong> At the gate, use the visitor lane on the left. The lanes on the right are for residents' cars.</li>

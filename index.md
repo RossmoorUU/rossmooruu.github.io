@@ -7,7 +7,7 @@ layout: default
     <div class="container home-hero">
         <div class="row g-4 g-lg-5 align-items-center">
             <div class="col-lg-6">
-                <p class="eyebrow">A club for Unitarian Universalists in Rossmoor</p>
+                <p class="eyebrow">A gathering of Unitarian Universalists in Rossmoor</p>
                 <h1>Unitarian Universalists of Rossmoor</h1>
                 <p class="lead">We are dedicated to nurturing spiritual growth, fostering inclusive fellowship,
                     and promoting compassion, justice, and lifelong learning.</p>
