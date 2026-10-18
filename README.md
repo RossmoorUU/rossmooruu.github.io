@@ -1,7 +1,7 @@
 # rossmooruu.org
 
 The website for the **Unitarian Universalists of Rossmoor** — a club for
-Unitarian Universalists living in the Rossmoor 55+ community in Walnut Creek,
+Unitarian Universalists living in the Rossmoor community in Walnut Creek,
 California. We meet once a month, on the **second Friday**, at 11:30 am in the
 Vista Room of the Hillside Complex. We are a club, not a church: the nearest UU
 congregation is Mount Diablo UU Church.
@@ -202,15 +202,6 @@ Recorded here so it is not rediscovered later. Most of what used to be on this
 list is gone — see the note at the end.
 
 - `uua_statements.md` is an orphan page with no inbound links.
-- **The two privacy policies disagree, and the older one is the one published.**
-  `privacy_policy.html` is the live page: ~10,000 words from a policy generator,
-  dated April 2025, and it neither names the organisation nor gives a street
-  address — its only contact is a Gmail address. `privacy_policy.md` is a
-  shorter, hand-written policy dated October 2025 that does name the club and
-  gives a registered address and a `privacy@rossmooruu.org` contact. Choosing
-  which text is authoritative is a decision for the club, not a tidy-up: it
-  changes what the public is told about their data. The `.md` is excluded from
-  the build meanwhile, so at least the raw copy at `/privacy_policy.md` is gone.
 - `docs/CNAME` is a leftover from an earlier Pages setup; it is published as
   `/docs/CNAME`. Nothing uses it.
 - Git history still contains the removed newsletter PDFs (~67 MB). Reclaiming
@@ -231,3 +222,9 @@ of it is recoverable from git history:
   silently dropped into the console. Replaced by `contact.md`, which uses the
   site layout and links to the club's email.
 - `_data/events.yml` and `_data/events.yml.bak` — unused.
+- `privacy_policy.html` — the generated ~10,000-word policy that was live,
+  dated April 2025. It named no organisation and gave no address, only a Gmail
+  contact. Replaced by `privacy_policy.md`, the club's own policy dated October
+  2025, which now publishes at the same URL. Its section numbering skips 8 (it
+  runs 7, then 9) and two typos were corrected on the way in: "they very
+  depending" to "they vary depending", and a doubled "the".

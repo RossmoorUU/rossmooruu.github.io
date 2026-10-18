@@ -1,5 +1,5 @@
 title: Unitarian Universalists of Rossmoor
-description: A club for Unitarian Universalists in the Rossmoor 55+ community, Walnut Creek, CA. Monthly programs on spirituality, justice and community.
+description: A gathering of Unitarian Universalists in Rossmoor, Walnut Creek, CA. Monthly programs on spirituality, justice and community.
 baseurl: "" # Leave empty for root directory
 url: "https://rossmooruu.org" # Your website URL
 
@@ -21,10 +21,6 @@ exclude:
   # Jekyll copies files without front matter into _site, so without this the
   # README is downloadable at /README.md — internal docs on the public site.
   - README.md
-  # Same problem: privacy_policy.md has no front matter, so it was served as a
-  # raw markdown file at /privacy_policy.md alongside the real policy page.
-  # See the README: this file and privacy_policy.html are different texts.
-  - privacy_policy.md
 
 # GitHub Pages settings
 github:
