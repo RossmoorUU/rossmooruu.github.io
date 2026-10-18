@@ -7,7 +7,7 @@ title: About Rossmoor UU
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <img src="assets/images/vista_room.png" class="img-fluid" alt="The Vista Room at the Hillside Complex, where the group meets">
+                <img src="assets/images/vista_room.webp" class="img-fluid" alt="The Vista Room at the Hillside Complex, where the group meets">
                 <p>Our group meets in the Vista Room of the Hillside complex, located at 3400 Golden Rain Road in Rossmoor.</p>
             </div>
             <div class="col-8">
