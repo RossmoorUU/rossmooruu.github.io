@@ -18,6 +18,9 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  # Jekyll copies files without front matter into _site, so without this the
+  # README is downloadable at /README.md — internal docs on the public site.
+  - README.md
 
 # GitHub Pages settings
 github:
