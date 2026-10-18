@@ -140,19 +140,18 @@ contacts. It belongs in `.env` on a machine, never in a commit.
 
 ## Local preview
 
-There is no `Gemfile`, so there is no locked local build. CI is the source of
-truth for what gets published.
-
-To preview locally anyway:
-
 ```bash
-gem install jekyll jekyll-sitemap
-jekyll serve --livereload   # http://localhost:4000
+bundle install
+bundle exec jekyll serve --livereload   # http://localhost:4000
 ```
 
-This needs Ruby 2.7 or newer. If your Ruby is older, install one with
-Homebrew or use the CI artifact instead — every pull request uploads the
-built site as a downloadable `built-site` artifact.
+The `Gemfile` pins the `github-pages` gem — the same toolchain GitHub Pages
+builds with — so a local build renders the same site as the deploy. Without it,
+a bare `gem install jekyll` gets you Jekyll 4 on a site built by Jekyll 3.9,
+and the two do not render identically.
+
+This needs Ruby 2.7 or newer. If your Ruby is older, skip it: every pull request
+uploads the built site as a downloadable `built-site` artifact.
 
 ## Deployment
 
@@ -199,21 +198,36 @@ bash .github/scripts/check-built-site.sh _site
 
 ## Known cleanup work
 
-Recorded here so it is not rediscovered later:
+Recorded here so it is not rediscovered later. Most of what used to be on this
+list is gone — see the note at the end.
 
-- `index_one_speaker.md`, `index_multiple_speakers.md` and `index_picnic.md` are
-  earlier versions of the homepage. They are not linked from anywhere but are
-  still published at their own URLs.
-- `next_program.md` renders an empty page: it loops over
-  `site.data.next_program_draft`, which does not exist.
 - `uua_statements.md` is an orphan page with no inbound links.
-- `contact.html` is a standalone page with its own `<head>` and styles; it does
-  not use the site layout, so it has no navbar or footer.
-- `privacy_policy.html` and `privacy_policy.md` both build to
-  `privacy_policy.html`. One of them should go.
-- `_data/events.yml` and `_data/events.yml.bak` are unused.
-- The repo has no `Gemfile`, so local and CI builds can drift. Adding one pinned
-  to the `github-pages` gem would fix that.
+- **The two privacy policies disagree, and the older one is the one published.**
+  `privacy_policy.html` is the live page: ~10,000 words from a policy generator,
+  dated April 2025, and it neither names the organisation nor gives a street
+  address — its only contact is a Gmail address. `privacy_policy.md` is a
+  shorter, hand-written policy dated October 2025 that does name the club and
+  gives a registered address and a `privacy@rossmooruu.org` contact. Choosing
+  which text is authoritative is a decision for the club, not a tidy-up: it
+  changes what the public is told about their data. The `.md` is excluded from
+  the build meanwhile, so at least the raw copy at `/privacy_policy.md` is gone.
+- `docs/CNAME` is a leftover from an earlier Pages setup; it is published as
+  `/docs/CNAME`. Nothing uses it.
 - Git history still contains the removed newsletter PDFs (~67 MB). Reclaiming
   that space needs a deliberate history rewrite and a force-push, not a cleanup
   commit.
+
+Removed in the cleanup pass, kept here in case any of it is wanted back — all
+of it is recoverable from git history:
+
+- `index_one_speaker.md`, `index_multiple_speakers.md`, `index_picnic.md` —
+  superseded homepages, still published at their own URLs. `index_picnic.md`
+  was a seasonal one announcing a "no August meeting" and a brown-bag picnic on
+  September 11, with real copy worth reusing if the club wants that page back.
+- `next_program.md` — rendered an empty page; it looped over
+  `site.data.next_program_draft`, which never existed.
+- `contact.html` and `assets/js/contact_script.js` — the page posted its form to
+  `/api/contact`, which does not exist on a static host, so submissions were
+  silently dropped into the console. Replaced by `contact.md`, which uses the
+  site layout and links to the club's email.
+- `_data/events.yml` and `_data/events.yml.bak` — unused.
