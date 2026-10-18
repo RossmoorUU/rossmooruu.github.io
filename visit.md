@@ -35,7 +35,7 @@ description: "Directions, gate instructions and what to expect at a Rossmoor UU 
                 <ol class="visit-steps">
                     <li><strong>Let us know you're coming.</strong> Email <a href="mailto:info@rossmooruu.org?subject=Visiting a program">info@rossmooruu.org</a> a few days ahead and we'll let the gate know to expect you.</li>
                     <li><strong>Take the visitor lane.</strong> At the gate, use the visitor lane on the left. The lanes on the right are for residents' cars.</li>
-                    <li><strong>Have your driver's licence ready.</strong> Security may ask to see it, and they'll ask who you're visiting. Say you're attending the Rossmoor UU program in the Vista Room.</li>
+                    <li><strong>Have your driver's license ready.</strong> Security may ask to see it, and they'll ask who you're visiting. Say you're attending the Rossmoor UU program in the Vista Room.</li>
                 </ol>
                 <div class="callout">
                     <p>If the guard can't find your name, ask them to call the club contact &mdash; we'll vouch for you. Don't turn around at the gate; a phone call sorts it out.</p>
