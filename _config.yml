@@ -21,6 +21,10 @@ exclude:
   # Jekyll copies files without front matter into _site, so without this the
   # README is downloadable at /README.md — internal docs on the public site.
   - README.md
+  # Same problem: privacy_policy.md has no front matter, so it was served as a
+  # raw markdown file at /privacy_policy.md alongside the real policy page.
+  # See the README: this file and privacy_policy.html are different texts.
+  - privacy_policy.md
 
 # GitHub Pages settings
 github:
