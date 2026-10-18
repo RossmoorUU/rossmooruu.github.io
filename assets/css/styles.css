@@ -585,10 +585,132 @@ section > .container > .row {
 }
 
 /* --------------------------------------------------------------------------
+   Visit page
+   -------------------------------------------------------------------------- */
+
+.page-head {
+  padding: 2.5rem 0 1.25rem;
+}
+
+.visit-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.visit-day {
+  color: var(--teal);
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.visit-steps {
+  counter-reset: step;
+  list-style: none;
+  padding-left: 0;
+}
+
+.visit-steps li {
+  counter-increment: step;
+  margin-bottom: 1.1rem;
+  max-width: var(--measure);
+  padding-left: 2.75rem;
+  position: relative;
+}
+
+.visit-steps li::before {
+  align-items: center;
+  background: var(--teal);
+  border-radius: 50%;
+  color: #fff;
+  content: counter(step);
+  display: flex;
+  font-size: 0.95rem;
+  font-weight: 600;
+  height: 1.9rem;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0.1rem;
+  width: 1.9rem;
+}
+
+.callout {
+  background: var(--paper-2);
+  border-left: 4px solid var(--amber);
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+}
+
+.callout p {
+  margin-bottom: 0;
+  max-width: var(--measure);
+}
+
+/* --------------------------------------------------------------------------
+   Footer (layout)
+   -------------------------------------------------------------------------- */
+
+.footer-logo {
+  height: auto;
+  margin-bottom: 1rem;
+  max-width: 220px;
+}
+
+.footer-blurb {
+  color: var(--ink-soft);
+  max-width: 34ch;
+}
+
+.footer-head {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.4rem;
+}
+
+.footer-soft {
+  color: var(--ink-soft);
+  font-size: 0.92em;
+}
+
+.footer-rule {
+  border-color: var(--line);
+  margin: 2rem 0 1.25rem;
+  opacity: 1;
+}
+
+.footer-legal p {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  margin-bottom: 0.4rem;
+  max-width: var(--measure);
+}
+
+/* --------------------------------------------------------------------------
    Small screens
    -------------------------------------------------------------------------- */
 
 @media (max-width: 768px) {
+  .visit-card {
+    padding: 1.25rem;
+  }
+
   .home-hero {
     padding: 1.75rem 0 1.5rem;
   }

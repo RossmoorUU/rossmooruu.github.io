@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Visit
+  link: /visit
 - name: Past Programs
   link: \#
   dropdown:
