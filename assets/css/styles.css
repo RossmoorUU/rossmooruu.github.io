@@ -382,6 +382,16 @@ section > .container > .row {
   margin-bottom: 1rem;
 }
 
+/* A program with no speaker still has artwork: the seasonal illustration sits
+   under the copy rather than a portrait row. */
+.tf-art {
+  border-radius: 10px;
+  display: block;
+  height: auto;
+  margin-bottom: 0.4rem;
+  width: 100%;
+}
+
 .speakers {
   align-items: center;
   border-top: 1px solid var(--line);
@@ -483,6 +493,12 @@ section > .container > .row {
 .speaker-photo {
   height: auto;
   max-width: 100%;
+}
+
+/* A past program with two speakers stacks two portraits in the date column;
+   without this the second photo butts straight against the first. */
+.col-4 img + img {
+  margin-top: 1rem;
 }
 
 .coming-up {

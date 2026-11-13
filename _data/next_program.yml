@@ -1,26 +1,22 @@
 ---
-- title: Love Beyond a Lifetime
-  subtitle: Organ Donation as an Act of Faith
-  date: Friday, November 13, 2026
-  month_abbr: Nov
-  day: "13"
-  description: Registering to be an organ and tissue donor is a profound act of human kindness. It gives another person the opportunity 
-    to live life to their fullest potential. It is a deeply emotional choice and arguably the greatest gift one could ever give or receive.<br><br>
-    Sonya Wilson and Damita Barbee of Donor Network West will describe their experience as transplant recipients and why they use the acronym H.O.P.E. to explain it.
-  image: sonya_wilson.webp
-  image_alt: Sonya Wilson
-  speaker: Sonya Wilson
-  speaker_bio:  Sonya Wilson is a resilient and grateful member of our community, having received a life-changing kidney transplant 
-    in February 2015 after battling IgA Nephropathy. This gift enabled her to witness her sons' marriages and become a grandmother. 
-    Sonya completed her psychology degree in 2022. She has been a Donate Life Ambassador for a decade, passionately sharing her story 
-    to honor her donors and advocate for the transformative power of organ and tissue donation. Sonya's journey is a testament to the 
-    life-saving potential of generosity.
-  image2: damita_barbee.webp
-  image2_alt: Damita Barbee
-  speaker2: Damita Barbee
-  speaker2_bio: Damita J. Barbee led a vibrant life in finance before Pulmonary Fibrosis struck. After her diagnosis in 2010 and 
-    subsequent lung transplant on August 15, 2014, she became a passionate voice for organ donation with Donor Network West. As a 
-    Lead Ambassador, Damita shares her journey to inspire and educate diverse communities about the life-saving impact of donation. 
-    Her story is one of resilience, gratitude, and living each day to the fullest, thanks to her donor's gift. Damita's advocacy 
-    highlights the importance of organ donation, encouraging others to embrace hope and second chances at life.
-  month: 2026-11
+- title: Holiday Music and Memories
+  subtitle: Our Annual Holiday Celebration
+  date: Friday, December 11, 2026
+  month_abbr: Dec
+  day: "11"
+  description: >-
+    Gather with friends, neighbors, and community members for an hour of warmth, wonder, and shared
+    tradition at our annual Holiday Celebration. As the year draws to a close, we come together to
+    honor the diverse winter festivals of light, hope, and renewal celebrated across our community
+    &mdash; from Hanukkah, Christmas, and Kwanzaa to Solstice traditions and beyond. Through uplifting
+    seasonal songs, and stories from those gathered about favorite holiday memories, this welcoming
+    gathering highlights the universal threads of gratitude, peace, and connection that unite us all.
+    <br><br>
+    Designed for guests of all backgrounds, the gathering invites you to listen, reflect, and join your
+    voice with ours in a spirit of joy and mutual respect. Whether you are sharing a cherished family
+    tradition or discovering the meaning behind a neighbor's holiday for the first time, you will find
+    a space filled with music, meaningful narrative, and community fellowship. Come be part of a
+    celebration that illuminates the season through the power of story and song.
+  image: holiday_music_and_memories.webp
+  image_alt: Illustration of a golden musical staff winding across a night sky with a menorah, a Christmas tree, a Kwanzaa kinara, and family silhouettes singing and reading together
+  month: 2026-12

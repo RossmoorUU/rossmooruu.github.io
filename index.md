@@ -35,6 +35,9 @@ layout: default
                         <p class="tf-sub">{{ program.subtitle }}</p>
                         {% endif %}
                         <p>{{ program.description }}</p>
+                        {% if program.image %}{% unless program.speaker %}
+                        <img class="tf-art" src="assets/images/{{ program.image }}" alt="{{ program.image_alt }}">
+                        {% endunless %}{% endif %}
                         {% if program.speaker %}
                         <div class="speakers">
                             {% if program.image %}
@@ -78,13 +81,14 @@ layout: default
         </div>
     </div>
 
+    {% for program in site.data.next_program %}
+    {% if program.speaker %}
     <div class="container speakers-section">
         <div class="sec-head">
             <div>
                 <h2>This month's speakers</h2>
             </div>
         </div>
-        {% for program in site.data.next_program %}
         {% if program.speaker %}
         <div class="row g-4 speaker-row">
             {% if program.image %}
@@ -114,8 +118,9 @@ layout: default
             </div>
         </div>
         {% endif %}
-        {% endfor %}
     </div>
+    {% endif %}
+    {% endfor %}
 
     <div class="container coming-up">
         <div class="sec-head">
