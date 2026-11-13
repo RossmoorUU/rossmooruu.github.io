@@ -17,6 +17,9 @@ layout: default
                 {% if program.image %}
                 <img src="assets/images/{{ program.image }}" class="img-fluid" alt="{{ program.image_alt | default: program.speaker }}">
                 {% endif %}
+                {% if program.image2 %}
+                <img src="assets/images/{{ program.image2 }}" class="img-fluid" alt="{{ program.image2_alt | default: program.speaker2 }}">
+                {% endif %}
             </div>
             <div class="col-8">
                 <h2>{{ program.title }}</h2>
@@ -25,6 +28,12 @@ layout: default
                 <h3>{{ program.speaker }}</h3>
                 {% endif %}
                 <p>{{ program.biography }}</p>
+                {% if program.speaker2 %}
+                <h3>{{ program.speaker2 }}</h3>
+                {% endif %}
+                {% if program.biography2 %}
+                <p>{{ program.biography2 }}</p>
+                {% endif %}
             </div>
         </div>
         <hr>
